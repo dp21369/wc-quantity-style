@@ -14,9 +14,61 @@ WC Quantity Style helps to change the default quantity arrows into separate plus
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/woocommerce-quantity-style` directory, or install the plugin through the WordPress plugins screen directly.
-2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. Navigate to WooCommerce settings to customize the quantity style as needed.
+1. Installing a Plugin from the WordPress Dashboard
+
+    - Log in to your WordPress Admin Area:
+
+    - Go to http://yourdomain.com/wp-admin.
+    Enter your username and password to log in.
+    Navigate to the Plugins Section:
+
+    - From the left-hand menu, click on Plugins, then select Add New.
+    Search for a Plugin:
+    In the search box on the top right, type in the name of the plugin you want to install.
+    Install the Plugin:
+
+    - Once you find the desired plugin, click the Install Now button next to it.
+
+    - Activate the Plugin:
+    After the installation completes, click the Activate button.
+
+2. Uploading a Plugin via the WordPress Dashboard
+
+    - Download the Plugin:
+        Download the plugin's .zip file from a third-party site or the WordPress Plugin Repository.
+        Log in to your WordPress Admin Area:
+
+    - Go to http://yourdomain.com/wp-admin.
+        Enter your username and password to log in.
+
+    - Navigate to the Plugins Section:
+
+    - From the left-hand menu, click on Plugins, then select Add New.
+        Upload the Plugin:
+        At the top of the page, click the Upload Plugin button.
+        Click Choose File, select the .zip file you downloaded, and click Install Now.
+
+    - Activate the Plugin:
+        After the installation is complete, click the Activate Plugin button.
+
+3. Installing a Plugin via FTP
+
+    - Download the Plugin:
+        Download the plugin's .zip file from a third-party site or the WordPress Plugin Repository.
+        Extract the .zip file to your computer. This will create a folder with the plugin’s files.
+
+    - Access Your Website via FTP:
+        Use an FTP client (such as FileZilla) to connect to your website’s server.
+        Enter your FTP credentials (host, username, password, and port) to connect.
+
+    - Upload the Plugin Files:
+        Navigate to the /wp-content/plugins/ directory on your server.
+        Upload the extracted plugin folder from your computer to the /wp-content/plugins/ directory.
+
+    - Activate the Plugin:
+        Log in to your WordPress Admin Area.
+        Go to Plugins in the left-hand menu.
+        Find the plugin you uploaded in the list and click the Activate button.
 
 == Frequently Asked Questions ==
 
