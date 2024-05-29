@@ -33,17 +33,13 @@ Yes, WC Quantity Style is designed to take the styling of your theme by default,
 = 1.0 =
 * Initial release.
 
-== Upgrade Notice ==
-
-= 1.0 =
-* Initial release.
 
 == Screenshots ==
 
 1. **Default Styling:** The default plus and minus signs styled by the theme.
-   ![Default Styling](http://www.wpcodeteam.com/screenshots/default.png)
+   
 2. **Customized Styling:** Example of customized plus and minus signs.
-   ![Customized Styling](http://www.wpcodeteam.com/screenshots/customized.png)
+   ![Customized Styling](https://wpcodeteam.com/wp-content/uploads/2024/05/Modified-Style.png)
 
 == Support and Contact Information ==
 
