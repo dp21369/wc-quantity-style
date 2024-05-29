@@ -89,7 +89,7 @@ Yes, WC Quantity Style is designed to take the styling of your theme by default,
 == Screenshots ==
 
 1. **Default Styling:** The default plus and minus signs styled by the theme.
-    ![Default Styling](https://wpcodeteam.com/wp-content/uploads/2024/05/Default-Style.png)
+    ![Default Styling](https://wpcodeteam.com/wp-content/uploads/2024/05/Default-Style-new.png)
    
 2. **Customized Styling:** Example of customized plus and minus signs.
    ![Customized Styling](https://wpcodeteam.com/wp-content/uploads/2024/05/Modified-Style.png)
