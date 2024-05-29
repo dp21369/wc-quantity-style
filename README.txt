@@ -1,4 +1,3 @@
-# Initial release v1.0
 === WC Quantity Style ===
 Contributors: devendrapali
 Tags: WooCommerce, Quantity
@@ -48,4 +47,3 @@ Yes, WC Quantity Style is designed to take the styling of your theme by default,
 == Support and Contact Information ==
 
 For support or inquiries, please visit [WPCodeteam](http://www.wpcodeteam.com/) or contact the author via [Devendra Pali's website](https://devendrapali.com.np/).
-

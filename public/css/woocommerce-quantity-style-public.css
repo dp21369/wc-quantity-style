@@ -1,0 +1,15 @@
+/**
+ * All of the CSS for public-facing functionality
+ */
+
+/* Hiding default arrows in Chrome, Safari, Edge, Opera */
+.woocommerce-page .quantity input.qty::-webkit-outer-spin-button,
+.woocommerce-page .quantity input.qty::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Hiding default arrows in Firefox */
+.woocommerce-page .quantity input.qty[type=number] {
+    -moz-appearance: textfield;
+}
