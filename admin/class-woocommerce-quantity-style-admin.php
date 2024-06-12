@@ -1,5 +1,4 @@
 <?php
-
 /**
  * The admin-specific functionality of the plugin.
  *
@@ -9,7 +8,6 @@
  * @package    Woocommerce_Quantity_Style
  * @subpackage Woocommerce_Quantity_Style/admin
  */
-
 /**
  * The admin-specific functionality of the plugin.
  *
@@ -21,7 +19,6 @@
  * @author     Devendra Pali <dev.devendrapali@gmail.com>
  */
 class Woocommerce_Quantity_Style_Admin {
-
 	/**
 	 * The ID of this plugin.
 	 *
@@ -30,7 +27,6 @@ class Woocommerce_Quantity_Style_Admin {
 	 * @var      string    $plugin_name    The ID of this plugin.
 	 */
 	private $plugin_name;
-
 	/**
 	 * The version of this plugin.
 	 *
@@ -39,7 +35,6 @@ class Woocommerce_Quantity_Style_Admin {
 	 * @var      string    $version    The current version of this plugin.
 	 */
 	private $version;
-
 	/**
 	 * Initialize the class and set its properties.
 	 *
@@ -48,19 +43,15 @@ class Woocommerce_Quantity_Style_Admin {
 	 * @param      string    $version    The version of this plugin.
 	 */
 	public function __construct( $plugin_name, $version ) {
-
 		$this->plugin_name = $plugin_name;
 		$this->version = $version;
-
 	}
-
 	/**
 	 * Register the stylesheets for the admin area.
 	 *
 	 * @since    1.0.0
 	 */
 	public function enqueue_styles() {
-
 		/**
 		 * This function is provided for demonstration purposes only.
 		 *
@@ -72,18 +63,14 @@ class Woocommerce_Quantity_Style_Admin {
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
-
 		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/woocommerce-quantity-style-admin.css', array(), $this->version, 'all' );
-
 	}
-
 	/**
 	 * Register the JavaScript for the admin area.
 	 *
 	 * @since    1.0.0
 	 */
 	public function enqueue_scripts() {
-
 		/**
 		 * This function is provided for demonstration purposes only.
 		 *
@@ -95,9 +82,6 @@ class Woocommerce_Quantity_Style_Admin {
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
-
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/woocommerce-quantity-style-admin.js', array( 'jquery' ), $this->version, false );
-
 	}
-
 }
