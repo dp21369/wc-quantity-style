@@ -2,8 +2,8 @@
 === WC Quantity Style ===
 Contributors: devendrapali
 Tags: WooCommerce, Quantity
-Requires at least: WooCommerce 7.0
-Tested up to: Latest Version
+Requires at least: 6.0
+Tested up to: 6.6
 Stable tag: 1.0
 License: GPL-2.0+
 License URI: https://www.gnu.org/licenses/gpl-3.0.html

@@ -72,7 +72,7 @@ class Woocommerce_Quantity_Style {
 		} else {
 			$this->version = '1.0.0';
 		}
-		$this->plugin_name = 'woocommerce-quantity-style';
+		$this->plugin_name = 'wc-quantity-style';
 
 		$this->load_dependencies();
 		$this->set_locale();
@@ -103,24 +103,24 @@ class Woocommerce_Quantity_Style {
 		 * The class responsible for orchestrating the actions and filters of the
 		 * core plugin.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-woocommerce-quantity-style-loader.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-wc-quantity-style-loader.php';
 
 		/**
 		 * The class responsible for defining internationalization functionality
 		 * of the plugin.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-woocommerce-quantity-style-i18n.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-wc-quantity-style-i18n.php';
 
 		/**
 		 * The class responsible for defining all actions that occur in the admin area.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-woocommerce-quantity-style-admin.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-wc-quantity-style-admin.php';
 
 		/**
 		 * The class responsible for defining all actions that occur in the public-facing
 		 * side of the site.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-woocommerce-quantity-style-public.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-wc-quantity-style-public.php';
 
 		$this->loader = new Woocommerce_Quantity_Style_Loader();
 

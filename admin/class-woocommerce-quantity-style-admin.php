@@ -63,7 +63,7 @@ class Woocommerce_Quantity_Style_Admin {
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/woocommerce-quantity-style-admin.css', array(), $this->version, 'all' );
+		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/wc-quantity-style-admin.css', array(), $this->version, 'all' );
 	}
 	/**
 	 * Register the JavaScript for the admin area.
@@ -82,6 +82,6 @@ class Woocommerce_Quantity_Style_Admin {
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/woocommerce-quantity-style-admin.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/wc-quantity-style-admin.js', array( 'jquery' ), $this->version, false );
 	}
 }

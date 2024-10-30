@@ -1,8 +1,8 @@
 === WC Quantity Style ===
 Contributors: devendrapali
 Tags: WooCommerce, Quantity
-Requires at least: WooCommerce 7.0
-Tested up to: Latest Version
+Requires at least: 6.0
+Tested up to: 6.6
 Stable tag: 1.0
 License: GPL-2.0+
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -13,7 +13,7 @@ WC Quantity Style helps to change the default quantity arrows into separate plus
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/woocommerce-quantity-style` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/wc-quantity-style` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. Navigate to WooCommerce settings to customize the quantity style as needed.
 
